@@ -182,7 +182,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 8177471321811730583, guid: 87aaca0a643d54397ba969dab4fc8875, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.46908927, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 1022954208}
   - component: {fileID: 1022954207}
   - component: {fileID: 1022954209}
+  - component: {fileID: 1022954210}
   m_Layer: 0
   m_Name: "sedar\u0131n obejsi"
   m_TagString: Untagged
@@ -391,12 +392,24 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1022954210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022954206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce64c14e53c54cf40bdada2d00d30dab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1321119704
 GameObject:
   m_ObjectHideFlags: 0
