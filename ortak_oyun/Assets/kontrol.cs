@@ -15,6 +15,7 @@ public class kontrol : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Space))
                 rb.AddForce(Vector2.up * 10 * Time.deltaTime);
+        //merhaba serdarcým
     }
     
 }
