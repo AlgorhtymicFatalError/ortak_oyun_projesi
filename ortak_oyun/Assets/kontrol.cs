@@ -14,7 +14,9 @@ public class kontrol : MonoBehaviour
     void Update()
     {
         if(Input.GetKey(KeyCode.Space))
-                rb.AddForce(Vector2.up * 10 * Time.deltaTime);
+                rb.AddForce(Vector2.up * -10 * Time.deltaTime);
+        // klasddklsadaskl
+        // klasddklsadaskl
     }
     
 }
